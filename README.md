@@ -1,11 +1,9 @@
-# README
+# Simulation of Digital Communication Systems with Image Transmission
 
-## English Version
-
-### 1. Project Name
+## 1. Project Name
 Simulation of Digital Communication Systems with Image Transmission
 
-### 2. Project Description
+## 2. Project Description
 This project is an academic assignment for the "Simulation of Communication Systems" course. Its primary goal is to simulate a complete digital transmission system, focusing on the transmission of an image converted into a binary data stream. We explore how such a system performs under various channel conditions, specifically in the presence of Additive White Gaussian Noise (AWGN).
 
 The simulation is built using MATLAB. The process involves:
@@ -17,14 +15,14 @@ The simulation is built using MATLAB. The process involves:
 * Reconstructing the image from the demodulated bitstream.
 * Evaluating system performance by calculating the Bit Error Rate (BER) and visualizing key signals such as constellation diagrams, signal waveforms, eye diagrams, and power spectral densities.
 
-### 3. Relevant Technologies
+## 3. Relevant Technologies
 * **Programming Language:** MATLAB
 * **Key MATLAB Toolboxes/Functions (implied/used):**
     * Image Processing Toolbox (e.g., `imread`, `imshow`, `uint8`, `double`).
     * Communications System related functions (e.g., `awgn` for adding noise, `biterr` for error calculation, `pwelch` for spectral density, `qfunc` for theoretical BER).
     * Basic MATLAB functions for array manipulation, plotting, and creating user interfaces (waitbars).
 
-### 4. User Guide
+## 4. User Guide
 
 **Prerequisites:**
 * MATLAB installed on your system.
@@ -54,7 +52,7 @@ The script will generate several figures to visualize the simulation results:
     * Waveform (real and imaginary parts) of the received signal after the AWGN channel (first 100 symbols, shown for SNR = 8 dB).
 * Progress of the simulation will be indicated by waitbars for different stages like image to bitstream conversion, SNR loop processing, and Monte Carlo simulation.
 
-### 5. How to Contribute
+## 5. How to Contribute
 This project is based on an academic assignment. As such, it is primarily intended for individual student work and assessment.
 
 However, if you have suggestions for:
@@ -65,13 +63,12 @@ However, if you have suggestions for:
 Please feel free to fork the repository and propose changes. Ensure any contributions or use of this code aligns with academic integrity principles and any specific guidelines from your institution if you are a student.
 
 ---
+# Mô phỏng Hệ thống Truyền thông Số với Truyền tải Ảnh
 
-## Phiên bản Tiếng Việt)
-
-### 1. Tên Dự án
+## 1. Tên Dự án
 Mô phỏng Hệ thống Truyền thông Số với Truyền tải Ảnh
 
-### 2. Mô tả Dự án
+## 2. Mô tả Dự án
 Dự án này là một bài tập lớn thuộc môn học "Mô phỏng Hệ thống Truyền thông". Mục tiêu chính là mô phỏng một hệ thống truyền dẫn số hoàn chỉnh, tập trung vào việc truyền tải một hình ảnh đã được chuyển đổi thành dòng bit nhị phân. Chúng tôi khám phá cách hệ thống như vậy hoạt động dưới các điều kiện kênh truyền khác nhau, cụ thể là với sự hiện diện của Nhiễu Gauss Trắng Cộng tính (AWGN).
 
 Mô phỏng được xây dựng bằng MATLAB. Quá trình bao gồm:
@@ -83,14 +80,14 @@ Mô phỏng được xây dựng bằng MATLAB. Quá trình bao gồm:
 * Tái tạo lại hình ảnh từ chuỗi bit đã giải điều chế.
 * Đánh giá hiệu năng hệ thống bằng cách tính Tỷ lệ Lỗi Bit (BER) và trực quan hóa các tín hiệu quan trọng như biểu đồ chòm sao, dạng sóng tín hiệu, biểu đồ mắt và mật độ phổ công suất.
 
-### 3. Công nghệ Liên quan
+## 3. Công nghệ Liên quan
 * **Ngôn ngữ lập trình:** MATLAB
 * **Các Toolbox/Hàm MATLAB chính (được sử dụng/ngụ ý):**
     * Image Processing Toolbox (ví dụ: `imread`, `imshow`, `uint8`, `double`).
     * Các hàm liên quan đến Hệ thống Truyền thông (ví dụ: `awgn` để thêm nhiễu, `biterr` để tính lỗi bit, `pwelch` cho mật độ phổ, `qfunc` cho BER lý thuyết).
     * Các hàm MATLAB cơ bản để xử lý mảng, vẽ đồ thị và tạo giao diện người dùng (thanh chờ).
 
-### 4. Hướng dẫn Sử dụng
+## 4. Hướng dẫn Sử dụng
 
 **Yêu cầu:**
 * Đã cài đặt MATLAB trên hệ thống của bạn.
@@ -120,7 +117,7 @@ Script sẽ tạo ra một số cửa sổ đồ thị để trực quan hóa k�
     * Dạng sóng (phần thực và phần ảo) của tín hiệu nhận được sau kênh AWGN (100 ký hiệu đầu tiên, hiển thị cho SNR = 8 dB).
 * Tiến trình của mô phỏng sẽ được chỉ báo bằng các thanh chờ cho các giai đoạn khác nhau như chuyển đổi ảnh sang chuỗi bit, xử lý vòng lặp SNR và mô phỏng Monte Carlo.
 
-### 5. Cách Đóng góp
+## 5. Cách Đóng góp
 Dự án này dựa trên một bài tập học thuật. Do đó, nó chủ yếu dành cho công việc và đánh giá cá nhân của sinh viên.
 
 Tuy nhiên, nếu bạn có đề xuất để:
